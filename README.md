@@ -182,6 +182,17 @@ If the two values are not identical, do not run the file. Delete it and download
 - **Where it keeps things:** settings, tags, the session and the undo journals are in `%APPDATA%\Vizor`. The optional "Open in Vizor" entry in the File Explorer menu needs administrator rights once, and can be turned off from the same place.
 - **Built with:** libarchive, zlib, xz, zstd, bzip2, UnRAR (read only), PDFium, WebView2, Chromaprint, dr_libs, stb_vorbis and the Inter, Geist, Atkinson Hyperlegible and JetBrains Mono fonts. Thanks to all their authors.
 
+### Copy speed
+
+Measured with Vizor's own benchmark: the same folder copied inside the same SSD, with every copy checked against its source afterwards. "Windows" is the system's own copy function, the one File Explorer uses.
+
+| Copying 20,000 small files (633 MiB) | Time | Speed |
+|---|---|---|
+| Windows | 40–45 s | 14 MiB/s |
+| Vizor | about 14 s | 43.5 MiB/s |
+
+That is about three times faster. The time counts until the last file is written to the disk. With a few big files Vizor is 15–18 % faster than Windows, and on a hard disk, copying 10,000 small files is about twice as fast. The results depend on your disk, your antivirus and the files; these were measured in November 2026 on one computer.
+
 ### Privacy
 
 Vizor does not collect or send any data about you. It has no telemetry and no accounts, and everything works offline.

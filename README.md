@@ -172,7 +172,7 @@ If the two values are not identical, do not run the file. Delete it and download
 
 ## Technical details
 
-- **Requirements:** Windows 10 or 11, 64-bit. HTML previews use the Microsoft Edge WebView2 Runtime, which comes with Windows 11 and with an up-to-date Windows 10; without it, an HTML file is shown as code.
+- **Requirements:** Windows 10 or 11, 64-bit. To get the most out of Vizor's speed, using it on an SSD is recommended. HTML previews use the Microsoft Edge WebView2 Runtime, which comes with Windows 11 and with an up-to-date Windows 10; without it, an HTML file is shown as code.
 - **A native Windows program,** written in C with Win32, Direct2D, DirectWrite and WIC. It has no framework to install and needs no Visual C++ redistributable.
 - **PDF pages and searching inside PDFs** use PDFium (the PDF engine of Chrome), shipped beside the program as `pdfium.dll`.
 - **Fast by design:** a folder of 10,000 files is drawn in 1–2 ms, and nothing waits for the disk or the network. Folder sizes are calculated in the background, and paths up to 32,767 characters work everywhere.

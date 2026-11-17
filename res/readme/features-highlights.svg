@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 948" width="1280" height="948" font-family="'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">
+<defs>
+<radialGradient id="glow" cx="0.5" cy="0" r="0.75"><stop offset="0" stop-color="#2f74cc" stop-opacity="0.16"/><stop offset="1" stop-color="#2f74cc" stop-opacity="0"/></radialGradient>
+<linearGradient id="ic" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4fd2e6"/><stop offset="1" stop-color="#2f74cc"/></linearGradient>
+<linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#121c3a"/><stop offset="1" stop-color="#0b1226"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4fd2e6" stop-opacity="0.55"/><stop offset="0.5" stop-color="#2b3a66" stop-opacity="0.6"/><stop offset="1" stop-color="#2b3a66" stop-opacity="0.25"/></linearGradient>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<rect width="1280" height="948" rx="24" fill="#070b18"/>
+<rect width="1280" height="948" rx="24" fill="url(#glow)"/>
+<rect x="40" y="36" width="6" height="36" rx="3" fill="#4fd2e6"/>
+<text x="60" y="66" font-size="32" font-weight="700" fill="#ffffff">Highlights</text>
+<rect x="40.0" y="100" width="384.0" height="184" rx="18" fill="url(#card)" stroke="#1f2b4f" stroke-width="1.2"/>
+<rect x="64.0" y="124" width="60" height="60" rx="16" fill="#16213f" stroke="#2b3a66"/>
+<g transform="translate(73.0,133) scale(1.5)" fill="none" stroke="#4fd2e6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></g>
+<rect x="140.0" y="135" width="101" height="38" rx="19" fill="#16213f" stroke="#2b3a66"/>
+<text x="157.0" y="160.5" font-size="18" font-weight="700" fill="#e9fbff">Instant</text>
+<text x="64.0" y="220" font-size="20" fill="#b4c2e0">10,000 files drawn in 1–2 ms. Nothing</text>
+<text x="64.0" y="248" font-size="20" fill="#b4c2e0">ever waits for the disk.</text>
+<rect x="448.0" y="100" width="384.0" height="184" rx="18" fill="url(#card)" stroke="#1f2b4f" stroke-width="1.2"/>
+<rect x="472.0" y="124" width="60" height="60" rx="16" fill="#16213f" stroke="#2b3a66"/>
+<g transform="translate(481.0,133) scale(1.5)" fill="none" stroke="#4fd2e6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></g>
+<rect x="548.0" y="135" width="126" height="38" rx="19" fill="#16213f" stroke="#2b3a66"/>
+<text x="565.0" y="160.5" font-size="18" font-weight="700" fill="#e9fbff">SwiftView</text>
+<text x="472.0" y="220" font-size="20" fill="#b4c2e0">Press Space to preview Office, PDF,</text>
+<text x="472.0" y="248" font-size="20" fill="#b4c2e0">pictures, audio, video and books.</text>
+<rect x="856.0" y="100" width="384.0" height="184" rx="18" fill="url(#card)" stroke="#1f2b4f" stroke-width="1.2"/>
+<rect x="880.0" y="124" width="60" height="60" rx="16" fill="#16213f" stroke="#2b3a66"/>
+<g transform="translate(889.0,133) scale(1.5)" fill="none" stroke="#4fd2e6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3z"/></g>
+<rect x="956.0" y="135" width="187" height="38" rx="19" fill="#16213f" stroke="#2b3a66"/>
+<text x="973.0" y="160.5" font-size="18" font-weight="700" fill="#e9fbff">Command palette</text>
+<text x="880.0" y="220" font-size="20" fill="#b4c2e0">Every command one keystroke away,</text>
+<text x="880.0" y="248" font-size="20" fill="#b4c2e0">and every shortcut yours to change.</text>
+<rect x="40.0" y="308" width="384.0" height="184" rx="18" fill="url(#card)" stroke="#1f2b4f" stroke-width="1.2"/>
+<rect x="64.0" y="332" width="60" height="60" rx="16" fill="#16213f" stroke="#2b3a66"/>
+<g transform="translate(73.0,341) scale(1.5)" fill="none" stroke="#4fd2e6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></g>
+<rect x="140.0" y="343" width="122" height="38" rx="19" fill="#16213f" stroke="#2b3a66"/>
+<text x="157.0" y="368.5" font-size="18" font-weight="700" fill="#e9fbff">Safe copy</text>
+<text x="64.0" y="428" font-size="20" fill="#b4c2e0">Never a half-written file, even after a</text>
+<text x="64.0" y="456" font-size="20" fill="#b4c2e0">crash. Verify if you like.</text>
+<rect x="448.0" y="308" width="384.0" height="184" rx="18" fill="url(#card)" stroke="#1f2b4f" stroke-width="1.2"/>
+<rect x="472.0" y="332" width="60" height="60" rx="16" fill="#16213f" stroke="#2b3a66"/>
+<g transform="translate(481.0,341) scale(1.5)" fill="none" stroke="#4fd2e6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M12 4v16M12 12h9"/></g>
+<rect x="548.0" y="343" width="153" height="38" rx="19" fill="#16213f" stroke="#2b3a66"/>
+<text x="565.0" y="368.5" font-size="18" font-weight="700" fill="#e9fbff">Panel layouts</text>
+<text x="472.0" y="428" font-size="20" fill="#b4c2e0">Up to four panels in 11 layouts, each</text>
+<text x="472.0" y="456" font-size="20" fill="#b4c2e0">one with its own tabs.</text>
+<rect x="856.0" y="308" width="384.0" height="184" rx="18" fill="url(#card)" stroke="#1f2b4f" stroke-width="1.2"/>
+<rect x="880.0" y="332" width="60" height="60" rx="16" fill="#16213f" stroke="#2b3a66"/>
+<g transform="translate(889.0,341) scale(1.5)" fill="none" stroke="#4fd2e6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 0 1 14-5.3L20 9M20 4v5h-5M20 12a8 8 0 0 1-14 5.3L4 15M4 20v-5h5"/></g>
+<rect x="956.0" y="343" width="176" height="38" rx="19" fill="#16213f" stroke="#2b3a66"/>
+<text x="973.0" y="368.5" font-size="18" font-weight="700" fill="#e9fbff">Compare &amp; sync</text>
+<text x="880.0" y="428" font-size="20" fill="#b4c2e0">Two folders side by side, three modes,</text>
+<text x="880.0" y="456" font-size="20" fill="#b4c2e0">and Undo after a restart.</text>
+<rect x="40.0" y="516" width="384.0" height="184" rx="18" fill="url(#card)" stroke="#1f2b4f" stroke-width="1.2"/>
+<rect x="64.0" y="540" width="60" height="60" rx="16" fill="#16213f" stroke="#2b3a66"/>
+<g transform="translate(73.0,549) scale(1.5)" fill="none" stroke="#4fd2e6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M4 16V6a2 2 0 0 1 2-2h10"/></g>
+<rect x="140.0" y="551" width="169" height="38" rx="19" fill="#16213f" stroke="#2b3a66"/>
+<text x="157.0" y="576.5" font-size="18" font-weight="700" fill="#e9fbff">Find duplicates</text>
+<text x="64.0" y="636" font-size="20" fill="#b4c2e0">Identical files, and similar pictures</text>
+<text x="64.0" y="664" font-size="20" fill="#b4c2e0">that were resized or re-saved.</text>
+<rect x="448.0" y="516" width="384.0" height="184" rx="18" fill="url(#card)" stroke="#1f2b4f" stroke-width="1.2"/>
+<rect x="472.0" y="540" width="60" height="60" rx="16" fill="#16213f" stroke="#2b3a66"/>
+<g transform="translate(481.0,549) scale(1.5)" fill="none" stroke="#4fd2e6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4 4 14h16z"/><path d="M4 19h16"/></g>
+<rect x="548.0" y="551" width="138" height="38" rx="19" fill="#16213f" stroke="#2b3a66"/>
+<text x="565.0" y="576.5" font-size="18" font-weight="700" fill="#e9fbff">Smart eject</text>
+<text x="472.0" y="636" font-size="20" fill="#b4c2e0">Tells you which program holds the</text>
+<text x="472.0" y="664" font-size="20" fill="#b4c2e0">drive, and can close it for you.</text>
+<rect x="856.0" y="516" width="384.0" height="184" rx="18" fill="url(#card)" stroke="#1f2b4f" stroke-width="1.2"/>
+<rect x="880.0" y="540" width="60" height="60" rx="16" fill="#16213f" stroke="#2b3a66"/>
+<g transform="translate(889.0,549) scale(1.5)" fill="none" stroke="#4fd2e6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></g>
+<rect x="956.0" y="551" width="127" height="38" rx="19" fill="#16213f" stroke="#2b3a66"/>
+<text x="973.0" y="576.5" font-size="18" font-weight="700" fill="#e9fbff">Audio tags</text>
+<text x="880.0" y="636" font-size="20" fill="#b4c2e0">Identify songs by their sound, find</text>
+<text x="880.0" y="664" font-size="20" fill="#b4c2e0">covers online, rename from tags.</text>
+<rect x="40.0" y="724" width="384.0" height="184" rx="18" fill="url(#card)" stroke="#1f2b4f" stroke-width="1.2"/>
+<rect x="64.0" y="748" width="60" height="60" rx="16" fill="#16213f" stroke="#2b3a66"/>
+<g transform="translate(73.0,757) scale(1.5)" fill="none" stroke="#4fd2e6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h13l-3-3M20 16H7l3 3"/></g>
+<rect x="140.0" y="759" width="129" height="38" rx="19" fill="#16213f" stroke="#2b3a66"/>
+<text x="157.0" y="784.5" font-size="18" font-weight="700" fill="#e9fbff">Converters</text>
+<text x="64.0" y="844" font-size="20" fill="#b4c2e0">Pictures, audio, PDF, documents and</text>
+<text x="64.0" y="872" font-size="20" fill="#b4c2e0">data into other formats, in one click.</text>
+<rect x="448.0" y="724" width="384.0" height="184" rx="18" fill="url(#card)" stroke="#1f2b4f" stroke-width="1.2"/>
+<rect x="472.0" y="748" width="60" height="60" rx="16" fill="#16213f" stroke="#2b3a66"/>
+<g transform="translate(481.0,757) scale(1.5)" fill="none" stroke="#4fd2e6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></g>
+<rect x="548.0" y="759" width="121" height="38" rx="19" fill="#16213f" stroke="#2b3a66"/>
+<text x="565.0" y="784.5" font-size="18" font-weight="700" fill="#e9fbff">PDF tools</text>
+<text x="472.0" y="844" font-size="20" fill="#b4c2e0">Merge, split, rotate and extract pages.</text>
+<text x="472.0" y="872" font-size="20" fill="#b4c2e0">PDF to Word and Excel.</text>
+<rect x="856.0" y="724" width="384.0" height="184" rx="18" fill="url(#card)" stroke="#1f2b4f" stroke-width="1.2"/>
+<rect x="880.0" y="748" width="60" height="60" rx="16" fill="#16213f" stroke="#2b3a66"/>
+<g transform="translate(889.0,757) scale(1.5)" fill="none" stroke="#4fd2e6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="4" rx="1"/><path d="M5 8v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8M10 12h4"/></g>
+<rect x="956.0" y="759" width="110" height="38" rx="19" fill="#16213f" stroke="#2b3a66"/>
+<text x="973.0" y="784.5" font-size="18" font-weight="700" fill="#e9fbff">Archives</text>
+<text x="880.0" y="844" font-size="20" fill="#b4c2e0">ZIP, 7z, RAR and tar. Make ZIP and</text>
+<text x="880.0" y="872" font-size="20" fill="#b4c2e0">7z with AES-256 passwords.</text>
+</svg>

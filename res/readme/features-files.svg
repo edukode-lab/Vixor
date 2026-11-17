@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 744" width="1280" height="744" font-family="'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">
+<defs>
+<radialGradient id="g" cx="0" cy="0" r="0.9"><stop offset="0" stop-color="#2f74cc" stop-opacity="0.10"/><stop offset="1" stop-color="#4fd2e6" stop-opacity="0"/></radialGradient>
+<linearGradient id="chip" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#16213f"/><stop offset="1" stop-color="#121a33"/></linearGradient>
+</defs>
+<rect width="1280" height="744" rx="24" fill="#070b18"/>
+<rect width="1280" height="744" rx="24" fill="url(#g)"/>
+<rect x="40" y="36" width="6" height="36" rx="3" fill="#4fd2e6"/>
+<text x="60" y="66" font-size="32" font-weight="700" fill="#ffffff">Work with files</text>
+<rect x="40.0" y="104" width="160" height="38" rx="19" fill="url(#chip)" stroke="#2b3a66"/>
+<circle cx="59.0" cy="123" r="4" fill="#4fd2e6"/>
+<text x="72.0" y="129.5" font-size="18" font-weight="700" fill="#ffffff">Undo / Redo</text>
+<text x="46.0" y="170" font-size="20" fill="#b4c2e0">Rename, move, copy, create and delete.</text>
+<rect x="660.0" y="104" width="171" height="38" rx="19" fill="url(#chip)" stroke="#2b3a66"/>
+<circle cx="679.0" cy="123" r="4" fill="#4fd2e6"/>
+<text x="692.0" y="129.5" font-size="18" font-weight="700" fill="#ffffff">Batch rename</text>
+<text x="666.0" y="170" font-size="20" fill="#b4c2e0">15 kinds of steps, EXIF, regex, live preview.</text>
+<rect x="40.0" y="192" width="189" height="38" rx="19" fill="url(#chip)" stroke="#2b3a66"/>
+<circle cx="59.0" cy="211" r="4" fill="#4fd2e6"/>
+<text x="72.0" y="217.5" font-size="18" font-weight="700" fill="#ffffff">Advanced paste</text>
+<text x="46.0" y="258" font-size="20" fill="#b4c2e0">Only newer, only changed, or verified.</text>
+<rect x="660.0" y="192" width="140" height="38" rx="19" fill="url(#chip)" stroke="#2b3a66"/>
+<circle cx="679.0" cy="211" r="4" fill="#4fd2e6"/>
+<text x="692.0" y="217.5" font-size="18" font-weight="700" fill="#ffffff">Edit dates</text>
+<text x="666.0" y="258" font-size="20" fill="#b4c2e0">Created, modified and accessed, many at once.</text>
+<rect x="40.0" y="280" width="152" height="38" rx="19" fill="url(#chip)" stroke="#2b3a66"/>
+<circle cx="59.0" cy="299" r="4" fill="#4fd2e6"/>
+<text x="72.0" y="305.5" font-size="18" font-weight="700" fill="#ffffff">Drag &amp; drop</text>
+<text x="46.0" y="346" font-size="20" fill="#b4c2e0">Between panels, tabs and other programs.</text>
+<rect x="660.0" y="280" width="171" height="38" rx="19" fill="url(#chip)" stroke="#2b3a66"/>
+<circle cx="679.0" cy="299" r="4" fill="#4fd2e6"/>
+<text x="692.0" y="305.5" font-size="18" font-weight="700" fill="#ffffff">Context menu</text>
+<text x="666.0" y="346" font-size="20" fill="#b4c2e0">Searchable, favorites, three styles.</text>
+<rect x="40.0" y="368" width="154" height="38" rx="19" fill="url(#chip)" stroke="#2b3a66"/>
+<circle cx="59.0" cy="387" r="4" fill="#4fd2e6"/>
+<text x="72.0" y="393.5" font-size="18" font-weight="700" fill="#ffffff">Recycle Bin</text>
+<text x="46.0" y="434" font-size="20" fill="#b4c2e0">Browse it and restore files.</text>
+<rect x="660.0" y="368" width="126" height="38" rx="19" fill="url(#chip)" stroke="#2b3a66"/>
+<circle cx="679.0" cy="387" r="4" fill="#4fd2e6"/>
+<text x="692.0" y="393.5" font-size="18" font-weight="700" fill="#ffffff">Clean up</text>
+<text x="666.0" y="434" font-size="20" fill="#b4c2e0">Find and remove empty files and folders.</text>
+<rect x="40.0" y="456" width="143" height="38" rx="19" fill="url(#chip)" stroke="#2b3a66"/>
+<circle cx="59.0" cy="475" r="4" fill="#4fd2e6"/>
+<text x="72.0" y="481.5" font-size="18" font-weight="700" fill="#ffffff">Unlock file</text>
+<text x="46.0" y="522" font-size="20" fill="#b4c2e0">See which program holds a file, and close it.</text>
+<rect x="660.0" y="456" width="151" height="38" rx="19" fill="url(#chip)" stroke="#2b3a66"/>
+<circle cx="679.0" cy="475" r="4" fill="#4fd2e6"/>
+<text x="692.0" y="481.5" font-size="18" font-weight="700" fill="#ffffff">Checksums</text>
+<text x="666.0" y="522" font-size="20" fill="#b4c2e0">MD5, SHA-1, SHA-256, CRC-32, xxHash64.</text>
+<rect x="40.0" y="544" width="147" height="38" rx="19" fill="url(#chip)" stroke="#2b3a66"/>
+<circle cx="59.0" cy="563" r="4" fill="#4fd2e6"/>
+<text x="72.0" y="569.5" font-size="18" font-weight="700" fill="#ffffff">Split &amp; join</text>
+<text x="46.0" y="610" font-size="20" fill="#b4c2e0">Cut big files into parts and back.</text>
+<rect x="660.0" y="544" width="126" height="38" rx="19" fill="url(#chip)" stroke="#2b3a66"/>
+<circle cx="679.0" cy="563" r="4" fill="#4fd2e6"/>
+<text x="692.0" y="569.5" font-size="18" font-weight="700" fill="#ffffff">Print list</text>
+<text x="666.0" y="610" font-size="20" fill="#b4c2e0">A folder to the printer, PDF, Excel or CSV.</text>
+<rect x="40.0" y="632" width="179" height="38" rx="19" fill="url(#chip)" stroke="#2b3a66"/>
+<circle cx="59.0" cy="651" r="4" fill="#4fd2e6"/>
+<text x="72.0" y="657.5" font-size="18" font-weight="700" fill="#ffffff">Text statistics</text>
+<text x="46.0" y="698" font-size="20" fill="#b4c2e0">Lines, encoding and line endings of many files.</text>
+</svg>

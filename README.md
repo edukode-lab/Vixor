@@ -152,7 +152,15 @@ My motivation was not only to build a useful tool that can help many people. Viz
 
 ## Download and install
 
-Vizor is distributed with an installer, on the [Releases](https://github.com/edukode-lab/Vizor/releases) page of this repository. Each release lists the SHA-256 of the installer, so you can check that your download is intact.
+Vizor is distributed with an installer, on the [Releases](https://github.com/edukode-lab/Vizor/releases) page of this repository.
+
+**Check your download.** Every release lists the **SHA-256** of its installer. After downloading, compare it with the one on the Releases page. In PowerShell:
+
+```powershell
+Get-FileHash .\Vizor-Setup.exe -Algorithm SHA256
+```
+
+If the two values are not identical, do not run the file. Delete it and download it again from this page.
 
 > [!WARNING]
 > **Download Vizor only from this repository or from well-known, trusted sites.** Unofficial copies, mirrors and files shared by strangers can hide malware. If you are not sure where a file came from, do not run it.
@@ -160,12 +168,12 @@ Vizor is distributed with an installer, on the [Releases](https://github.com/edu
 > [!NOTE]
 > **Windows SmartScreen may warn you the first time.** You may see "Windows protected your PC" when you run the installer. This happens because Vizor is a new program from an independent developer and is not yet signed with a code-signing certificate, not because anything was found in it. If you downloaded it from this page, choose **More info** and then **Run anyway**.
 
-**Vizor is a beta (version 0.9.0).** It has been tested carefully, but expect rough edges. A few features, such as formatting drives, have not yet been tried on every kind of hardware, so use them with care and keep a copy of what matters. If you find a problem, please [open an issue](https://github.com/edukode-lab/Vizor/issues).
+**Vizor is a beta (version 0.9.0).** It has been tested carefully, but expect rough edges, and keep a copy of what matters before big operations. If you find a problem, please [open an issue](https://github.com/edukode-lab/Vizor/issues).
 
 ## Technical details
 
 - **Requirements:** Windows 10 or 11, 64-bit. HTML previews use the Microsoft Edge WebView2 Runtime, which comes with Windows 11 and with an up-to-date Windows 10; without it, an HTML file is shown as code.
-- **A native Windows program,** written in C with Win32, Direct2D, DirectWrite and WIC. It has no framework to install and needs no Visual C++ redistributable. The program is about 7 MB; with the PDF engine it ships with, about 15 MB.
+- **A native Windows program,** written in C with Win32, Direct2D, DirectWrite and WIC. It has no framework to install and needs no Visual C++ redistributable.
 - **PDF pages and searching inside PDFs** use PDFium (the PDF engine of Chrome), shipped beside the program as `pdfium.dll`.
 - **Fast by design:** a folder of 10,000 files is drawn in 1–2 ms, and nothing waits for the disk or the network. Folder sizes are calculated in the background, and paths up to 32,767 characters work everywhere.
 - **Safe copy:** files are never left half-written, even after a crash, and temporary files are cleaned up at the next start.

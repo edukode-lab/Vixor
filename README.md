@@ -168,7 +168,7 @@ If the two values are not identical, do not run the file. Delete it and download
 > [!NOTE]
 > **Windows SmartScreen may warn you the first time.** You may see "Windows protected your PC" when you run the installer. This happens because Vizor is a new program from an independent developer and is not yet signed with a code-signing certificate, not because anything was found in it. If you downloaded it from this page, choose **More info** and then **Run anyway**.
 
-**Vizor is a beta (version 0.9.0).** It has been tested carefully, but expect rough edges, and keep a copy of what matters before big operations. If you find a problem, please [open an issue](https://github.com/edukode-lab/Vizor/issues).
+**Vizor is a beta (version 0.9.0). Use it at your own risk.** It has been tested carefully, but it copies, moves, renames, deletes and can even format files and drives, so expect rough edges, review each operation before you confirm it, and keep a backup of anything that matters. Vizor is provided "as is", without warranty, as the [license](LICENSE.md) explains. If you find a problem, please [open an issue](https://github.com/edukode-lab/Vizor/issues).
 
 ## Technical details
 

@@ -203,6 +203,8 @@ Vizor keeps growing. These are the next things on my list:
 - **System icon customization:** change the icons of drives, folders and file types.
 - **An image viewer** for your pictures.
 - **More interface languages.**
+- **Network folders**
+- **And more.**
 
 Have an idea? [Open an issue](https://github.com/edukode-lab/Vizor/issues) and tell me.
 

@@ -150,6 +150,51 @@ My motivation was not only to build a useful tool that can help many people. Viz
 
 </details>
 
+## Download and install
+
+Vizor is distributed with an installer, on the [Releases](https://github.com/edukode-lab/Vizor/releases) page of this repository. Each release lists the SHA-256 of the installer, so you can check that your download is intact.
+
+> [!WARNING]
+> **Download Vizor only from this repository or from well-known, trusted sites.** Unofficial copies, mirrors and files shared by strangers can hide malware. If you are not sure where a file came from, do not run it.
+
+> [!NOTE]
+> **Windows SmartScreen may warn you the first time.** You may see "Windows protected your PC" when you run the installer. This happens because Vizor is a new program from an independent developer and is not yet signed with a code-signing certificate, not because anything was found in it. If you downloaded it from this page, choose **More info** and then **Run anyway**.
+
+**Vizor is a beta (version 0.9.0).** It has been tested carefully, but expect rough edges. A few features, such as formatting drives, have not yet been tried on every kind of hardware, so use them with care and keep a copy of what matters. If you find a problem, please [open an issue](https://github.com/edukode-lab/Vizor/issues).
+
+## Technical details
+
+- **Requirements:** Windows 10 or 11, 64-bit. HTML previews use the Microsoft Edge WebView2 Runtime, which comes with Windows 11 and with an up-to-date Windows 10; without it, an HTML file is shown as code.
+- **A native Windows program,** written in C with Win32, Direct2D, DirectWrite and WIC. It has no framework to install and needs no Visual C++ redistributable. The program is about 7 MB; with the PDF engine it ships with, about 15 MB.
+- **PDF pages and searching inside PDFs** use PDFium (the PDF engine of Chrome), shipped beside the program as `pdfium.dll`.
+- **Fast by design:** a folder of 10,000 files is drawn in 1–2 ms, and nothing waits for the disk or the network. Folder sizes are calculated in the background, and paths up to 32,767 characters work everywhere.
+- **Safe copy:** files are never left half-written, even after a crash, and temporary files are cleaned up at the next start.
+- **Archives:** reads ZIP, 7z, RAR and tar (gzip, xz, bzip2, zstd). Makes ZIP and 7z (with AES-256 passwords) and tar. RAR can only be read.
+- **Audio:** reads WAV, FLAC, MP3 and Ogg Vorbis with its own decoders when Windows cannot open them.
+- **Where it keeps things:** settings, tags, the session and the undo journals are in `%APPDATA%\Vizor`. The optional "Open in Vizor" entry in the File Explorer menu needs administrator rights once, and can be turned off from the same place.
+- **Built with:** libarchive, zlib, xz, zstd, bzip2, UnRAR (read only), PDFium, WebView2, Chromaprint, dr_libs, stb_vorbis and the Inter, Geist, Atkinson Hyperlegible and JetBrains Mono fonts. Thanks to all their authors.
+
+### Privacy
+
+Vizor does not collect or send any data. It has no telemetry, no accounts and no automatic update check, and everything works offline.
+
+The only times it uses the internet are the two audio features you start yourself, and each one asks for your agreement the first time:
+
+- **Find cover online** sends the artist and album (or the song title) to MusicBrainz and the Cover Art Archive, and downloads the cover you choose.
+- **Identify** sends an audio fingerprint, never the file, to AcoustID to recognize the song.
+
+## What's coming next
+
+Vizor keeps growing. These are the next things on my list:
+
+- **A customizable context menu:** choose and arrange what appears when you right-click.
+- **Smart folders:** folders that fill themselves from a search.
+- **System icon customization:** change the icons of drives, folders and file types.
+- **An image viewer** for your pictures.
+- **More interface languages.**
+
+Have an idea? [Open an issue](https://github.com/edukode-lab/Vizor/issues) and tell me.
+
 ## License
 
 Vizor is free for personal, educational and non-profit use. Commercial use needs a commercial license.

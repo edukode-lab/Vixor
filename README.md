@@ -184,12 +184,15 @@ If the two values are not identical, do not run the file. Delete it and download
 
 ### Privacy
 
-Vizor does not collect or send any data. It has no telemetry, no accounts and no automatic update check, and everything works offline.
+Vizor does not collect or send any data about you. It has no telemetry and no accounts, and everything works offline.
 
-The only times it uses the internet are the two audio features you start yourself, and each one asks for your agreement the first time:
+It uses the internet in only three cases, all of them started or accepted by you:
 
+- **Check for updates:** the first time, Vizor asks whether it may look once a week for a newer version. If you accept (or press **Check for updates** in About), it asks GitHub for the list of published versions and tells you if there is a newer one. It sends nothing about you or your files, and it never downloads or installs anything by itself.
 - **Find cover online** sends the artist and album (or the song title) to MusicBrainz and the Cover Art Archive, and downloads the cover you choose.
 - **Identify** sends an audio fingerprint, never the file, to AcoustID to recognize the song.
+
+Each of the two audio functions asks for your agreement the first time.
 
 ## What's coming next
 

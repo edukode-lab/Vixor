@@ -4,8 +4,28 @@
 
 # Vizor
 
-Native Windows file manager written in C (Win32 + Direct2D/DirectWrite + WIC), modelled on how File Pilot works.
-A single `.exe` with no dependencies (static CRT).
+## The story behind Vizor
+
+I had this idea for years: one file manager that already does what I kept installing separate tools for. Renaming in batches, finding duplicates, converting files, compressing, previewing, comparing folders. At some point I counted eight or ten different programs on my computer just to look after my files, and having to find, download and update each one was tedious. I never had the skills to build the tool I imagined. With AI, I finally could.
+
+Vizor has taken more than 200 hours. It is 100% vibe coded, but every architecture and design decision was mine, and I reviewed every detail myself, one by one.
+
+I also wanted it to be trustworthy, because a file manager must never lose your files. Every build was tested before it was committed, and the code went through repeated audits to catch bugs, security problems and logic errors.
+
+<details>
+<summary><b>How it was tested</b></summary>
+
+- Automated tests run on every build; a single failing check stops it, and compiler warnings count as errors.
+- Static analysis of the whole code before every commit, with no warnings accepted.
+- A debug build with AddressSanitizer, which catches memory errors that normal testing misses.
+- Fuzzing: the code that reads untrusted files (archives, documents) is fed with random and malformed files to see if it breaks.
+- Stress tests for copying and deleting, because losing a user's data is the worst possible bug.
+- More than ten audit rounds of the whole program (errors, data safety, vulnerabilities, threads, logic, performance). Every finding was rated by severity and written down with how it was checked, and nothing was called fixed until it had been run.
+- Every change tried by hand in the real app before it was committed.
+
+</details>
+
+My motivation was not only to build a useful tool that can help many people. Vizor was also born in a difficult time that my wife and I have been going through, and working on it gave me something good to put my energy into.
 
 ## Features
 

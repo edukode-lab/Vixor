@@ -210,3 +210,9 @@ Have an idea? [Open an issue](https://github.com/edukode-lab/Vizor/issues) and t
 
 Vizor is free for personal, educational and non-profit use. Commercial use needs a commercial license.
 Read the full terms in [LICENSE.md](LICENSE.md) (English) or [LICENCIA.md](LICENCIA.md) (Spanish; it prevails if they differ).
+
+## Support
+
+If you like Vizor and want to support its development, you can buy me a coffee.
+
+<a href="https://ko-fi.com/edukode"><img src="res/support-kofi.svg" alt="Buy me a coffee on Ko-fi" width="220"></a>

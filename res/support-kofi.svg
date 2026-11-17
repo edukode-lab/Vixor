@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="52" viewBox="0 0 260 52" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+<title>Buy me a coffee on Ko-fi</title>
+<rect width="260" height="52" rx="10" fill="#29ABE0"/>
+<g transform="translate(18,10) scale(1.35)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3.5 9h13v5.5a5 5 0 0 1-5 5h-3a5 5 0 0 1-5-5z"/><path d="M16.5 10.5h1.25a2.75 2.75 0 0 1 0 5.5H16.3"/><path d="M8 3.5v2.5M12 3.5v2.5" stroke-width="1.6"/>
+<path d="M10 17.2l-2.6-2.5a1.55 1.55 0 0 1 2.6-1.9 1.55 1.55 0 0 1 2.6 1.9z" fill="#FF5E5B" stroke="none"/></g>
+<text x="62" y="33" font-size="19" font-weight="600" fill="#ffffff">Buy me a coffee</text>
+</svg>

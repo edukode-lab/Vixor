@@ -27,6 +27,8 @@ I also wanted it to be trustworthy, because a file manager must never lose your 
 
 My motivation was not only to build a useful tool that can help many people. Vizor was also born in a difficult time that my wife and I have been going through, and working on it gave me something good to put my energy into.
 
+**A note on the tools.** The tools built into Vizor (converters, PDF tools, batch rename, audio tags, duplicates, sync, and the like) do the basic, everyday jobs, so you don't have to open another program for them. They are not a replacement for professional software: a full PDF editor, an audio or photo editor, or a backup suite will go much further.
+
 ## Features
 
 <p align="center"><img src="res/readme/features-highlights.svg" alt="Highlights" width="100%"></p>
@@ -124,7 +126,7 @@ My motivation was not only to build a useful tool that can help many people. Viz
 | <kbd>Split & join</kbd> | Cut big files into parts and put them back together. |
 | <kbd>Print list</kbd> | A folder's contents to the printer, PDF, Excel, CSV or HTML. |
 | <kbd>Text statistics</kbd> | Lines, words, encoding and line endings of many text files at once. |
-| <kbd>Passwords</kbd> | A lock on protected files; remove a PDF password you know. |
+| <kbd>Passwords</kbd> | Remember the password of an archive or a PDF and it opens by itself next time. A lock on protected files; remove a PDF password you know. |
 
 ## Convert
 

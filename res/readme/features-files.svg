@@ -59,4 +59,8 @@
 <circle cx="59.0" cy="651" r="4" fill="#4fd2e6"/>
 <text x="72.0" y="657.5" font-size="18" font-weight="700" fill="#ffffff">Text statistics</text>
 <text x="46.0" y="698" font-size="20" fill="#b4c2e0">Lines, encoding and line endings of many files.</text>
+<rect x="660.0" y="632" width="147" height="38" rx="19" fill="url(#chip)" stroke="#2b3a66"/>
+<circle cx="679.0" cy="651" r="4" fill="#4fd2e6"/>
+<text x="692.0" y="657.5" font-size="18" font-weight="700" fill="#ffffff">Passwords</text>
+<text x="666.0" y="698" font-size="20" fill="#b4c2e0">Remember archive and PDF passwords: they open by themselves.</text>
 </svg>

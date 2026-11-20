@@ -2,7 +2,7 @@
 
 **Free license for non-commercial use**
 Version 1.2 — November 2026
-© 2026 Eduardo Tovar Luque. All rights reserved.
+© 2026 Eduardo Tovar Luque (edukode). All rights reserved.
 
 Versión en español: [LICENCIA.md](LICENCIA.md). In case of differences, the Spanish version prevails (clause 15).
 
@@ -12,7 +12,7 @@ This license governs the use of Vizor, a file manager for Windows ("the Software
 
 ## 2. Definitions
 
-- **Owner:** Eduardo Tovar Luque, author and holder of the rights in the Software.
+- **Owner:** Eduardo Tovar Luque, operating as edukode, author and holder of the rights in the Software.
 - **User:** the individual or organization that downloads, installs or uses the Software.
 - **Personal use:** use by an individual on their own behalf and for their own purposes, outside any professional, commercial or employment activity.
 - **Commercial use:** any use by a company, business, self-employed professional or public administration, or by an employee or contractor in the course of their work, whether or not there is a direct charge and whatever computer it runs on.

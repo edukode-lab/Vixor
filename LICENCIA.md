@@ -2,7 +2,7 @@
 
 **Licencia de uso gratuito para fines no comerciales**
 Versión 1.2 — noviembre de 2026
-© 2026 Eduardo Tovar Luque. Todos los derechos reservados.
+© 2026 Eduardo Tovar Luque (edukode). Todos los derechos reservados.
 
 English version: [LICENSE.md](LICENSE.md). Si hay diferencias, prevalece esta versión en español (cláusula 15).
 
@@ -12,7 +12,7 @@ Esta licencia regula el uso de Vizor, un administrador de archivos para Windows 
 
 ## 2. Definiciones
 
-- **Titular:** Eduardo Tovar Luque, autor y propietario de los derechos del Software.
+- **Titular:** Eduardo Tovar Luque, que actúa como edukode, autor y propietario de los derechos del Software.
 - **Usuario:** la persona física u organización que descarga, instala o usa el Software.
 - **Uso personal:** el que una persona física hace por su cuenta y para sus propios fines, fuera de cualquier actividad profesional, comercial o laboral.
 - **Uso comercial:** cualquier uso por una empresa, sociedad, negocio, profesional independiente o administración pública, o por un empleado o colaborador en el desempeño de su trabajo, con independencia de que exista o no un cobro directo y del equipo en que se use.

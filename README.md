@@ -193,7 +193,7 @@ Measured with Vizor's own benchmark: the same folder copied inside the same SSD,
 | Windows | 40–45 s | 14 MiB/s |
 | Vizor | about 14 s | 43.5 MiB/s |
 
-That is about three times faster. The time counts until the last file is written to the disk. With a few big files Vizor is 15–18 % faster than Windows, and on a hard disk, copying 10,000 small files is about twice as fast. The results depend on your disk, your antivirus and the files; these were measured in November 2026 on one computer.
+That is about three times faster. The time counts until the last file is written to the disk. With a few big files Vizor is 15–18 % faster than Windows, and on a hard disk, copying 10,000 small files is about twice as fast. The results depend on your disk, your antivirus and the files; these were measured in my laptop.
 
 ### Privacy
 

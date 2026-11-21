@@ -194,7 +194,7 @@ If the two values are not identical, do not run the file. Delete it and download
 - **Requirements:** Windows 10 or 11, 64-bit. A processor with 2 or more cores and 4 GB of RAM are enough to use it; 4 cores and 8 GB or more are recommended. Vizor uses several threads to keep the window responsive while it reads folders, sizes, thumbnails and previews, so a very old single-core processor will feel slow. Using it on an SSD is recommended. HTML previews use the Microsoft Edge WebView2 Runtime, which comes with Windows 11 and with an up-to-date Windows 10; without it, an HTML file is shown as code.
 - **A native Windows program,** written in C with Win32, Direct2D, DirectWrite and WIC. It has no framework to install and needs no Visual C++ redistributable.
 - **PDF pages and searching inside PDFs** use PDFium (the PDF engine of Chrome), shipped beside the program as `pdfium.dll`.
-- **Fast by design:** a folder of 10,000 files is drawn in 1–2 ms, and nothing waits for the disk or the network. Folder sizes are calculated in the background, and paths up to 32,767 characters work everywhere.
+- **Fast by design:** a folder of 10,000 files is drawn in 1–2 ms, and reading a folder never freezes the window. Folder sizes are calculated in the background, and paths up to 32,767 characters work everywhere.
 - **Safe copy:** files are never left half-written, even after a crash, and temporary files are cleaned up at the next start.
 - **Archives:** reads ZIP, 7z, RAR and tar (gzip, xz, bzip2, zstd). Makes ZIP and 7z (with AES-256 passwords) and tar. RAR can only be read.
 - **Audio:** reads WAV, FLAC, MP3 and Ogg Vorbis with its own decoders when Windows cannot open them.

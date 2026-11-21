@@ -16,7 +16,7 @@ Press **Space** to preview almost anything (Office, PDF, pictures, audio, video,
 
 **Status:** beta, ready to use.
 
-**Requirements:** Windows 10 or 11, 64-bit. A processor with 2 or more cores and 4 GB of RAM are enough to use it; 4 cores and 8 GB or more are recommended. Vizor uses several threads to keep the window responsive while it reads folders, sizes, thumbnails and previews, so a very old single-core processor will feel slow. Using it on an SSD is recommended.
+**Requirements:** Windows 10 or 11, 64-bit. A processor with 2 or more cores and 4 GB of RAM are enough to use it; 4 cores and 8 GB or more are recommended. Vizor uses several threads to keep the window responsive while it reads folders, sizes, thumbnails and previews, so a very old single-core processor will feel slow. Using it on an SSD is highly recommended.
 
 ## The story behind Vizor
 

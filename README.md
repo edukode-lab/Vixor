@@ -4,30 +4,47 @@
 
 # Vizor
 
+**A fast, native file manager for Windows with a built-in preview, command palette and everyday tools.** It is a single `.exe` written in C (Win32 + Direct2D/DirectWrite + WIC), with no account, no telemetry and nothing sent anywhere. Folders of 10,000 files draw in 1–2 ms, and nothing waits for the disk or the network.
+
+Press **Space** to preview almost anything (Office, PDF, pictures, audio, video, books), work with up to four panels that each have their own tabs, and reach every command from the **command palette** (Ctrl+Shift+P). Copies are never left half-written, even after a crash. The everyday jobs that usually send you to another program are already inside: batch rename, find duplicates, compare and synchronize folders, checksums, PDF tools, converters, archives (ZIP, 7z, RAR, tar) and audio tags.
+
+**Built on the best ideas that already exist.** Vizor borrows what each kind of tool does well: the dual panels and keyboard speed of the classic file managers, the Columns view and the quick preview of the macOS Finder, the instant search of the best desktop search tools, and the command palette of modern code editors. It brings them together in one program that feels native on Windows.
+
+**Who is it for?** Anyone who finds Explorer slow or too limited, who handles many files every day (photos, documents, music, backups) and wants to do it without reaching for the mouse or a dozen small utilities.
+
+**What it is not:** a replacement for professional software. The built-in tools do the basic, everyday work; a full PDF editor, a photo editor or a backup suite will go much further.
+
+**Status:** beta, ready to use.
+
+**Requirements:** Windows 10 or 11, 64-bit. A processor with 2 or more cores and 4 GB of RAM are enough to use it; 4 cores and 8 GB or more are recommended. Vizor uses several threads to keep the window responsive while it reads folders, sizes, thumbnails and previews, so a very old single-core processor will feel slow. Using it on an SSD is recommended.
+
 ## The story behind Vizor
+
+Like many Windows Explorer users, I always wished for a better response, more built-in utilities and many more ways to make it my own. Several tools already improve on Explorer, but none of them had all the features I wanted in a file manager.
 
 I had this idea for years: one file manager that already does what I kept installing separate tools for. Renaming in batches, finding duplicates, converting files, compressing, previewing, comparing folders. At some point I counted eight or ten different programs on my computer just to look after my files, and having to find, download and update each one was tedious. I never had the skills to build the tool I imagined. With AI, I finally could.
 
 Vizor has taken more than 200 hours. It is 100% vibe coded, but every architecture and design decision was mine, and I reviewed every detail myself, one by one.
 
-I also wanted it to be trustworthy, because a file manager must never lose your files. Every build was tested before it was committed, and the code went through repeated audits to catch bugs, security problems and logic errors.
+I also wanted it to be trustworthy, because a file manager must never lose your files. That is why testing was as much a part of the work as writing the code; you can read how below.
+
+Vizor was also born in a difficult time for my wife and me, and working on it gave me something good to put my energy into. On August 10, the earthquake in Cali left us without our apartment, and that is why I wanted to finish it and share it sooner rather than later.
+
+Vizor is free, with no ads, no account and no locked features, and it will stay that way. If it turns out to be useful to you and you would like to help us start over, you will find me on [Ko-fi](https://ko-fi.com/edukode). It is never expected: using Vizor and telling me what to improve is already a great way to help.
 
 <details>
 <summary><b>How it was tested</b></summary>
+
 
 - Automated tests run on every build; a single failing check stops it, and compiler warnings count as errors.
 - Static analysis of the whole code before every commit, with no warnings accepted.
 - A debug build with AddressSanitizer, which catches memory errors that normal testing misses.
 - Fuzzing: the code that reads untrusted files (archives, documents) is fed with random and malformed files to see if it breaks.
 - Stress tests for copying and deleting, because losing a user's data is the worst possible bug.
-- More than ten audit rounds of the whole program (errors, data safety, vulnerabilities, threads, logic, performance). Every finding was rated by severity and written down with how it was checked, and nothing was called fixed until it had been run.
+- More than ten audit rounds of the whole program (errors, data safety, untrusted files, threads, logic, performance). Every finding was rated by severity and written down with how it was checked, and nothing was called fixed until it had been run.
 - Every change tried by hand in the real app before it was committed.
 
-</details>
-
-My motivation was not only to build a useful tool that can help many people. Vizor was also born in a difficult time that my wife and I have been going through, and working on it gave me something good to put my energy into.
-
-**A note on the tools.** The tools built into Vizor (converters, PDF tools, batch rename, audio tags, duplicates, sync, and the like) do the basic, everyday jobs, so you don't have to open another program for them. They are not a replacement for professional software: a full PDF editor, an audio or photo editor, or a backup suite will go much further.
+n</details>
 
 ## Features
 

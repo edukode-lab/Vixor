@@ -4,7 +4,7 @@
 
 # Vizor
 
-**A fast, native file manager for Windows with a built-in preview, command palette and everyday tools.** It is a single `.exe` written in C (Win32 + Direct2D/DirectWrite + WIC), with no account, no telemetry and nothing sent anywhere. Folders of 10,000 files draw in 1–2 ms, and nothing waits for the disk or the network.
+**A fast, native file manager for Windows with a built-in preview, command palette and everyday tools.** It is a single `.exe` written in C (Win32 + Direct2D/DirectWrite + WIC), with no account and no telemetry. Vizor only goes online when you ask it to: identifying a song or finding its cover (the audio tag tools) sends the sound's fingerprint or a search to AcoustID, MusicBrainz and the Cover Art Archive, and, only if you say yes, once a week it checks GitHub for a newer version. Nothing else leaves your computer. Folders of 10,000 files are drawn in 1–2 ms, and reading a folder never freezes the window.
 
 Press **Space** to preview almost anything (Office, PDF, pictures, audio, video, books), work with up to four panels that each have their own tabs, and reach every command from the **command palette** (Ctrl+Shift+P). Copies are never left half-written, even after a crash. The everyday jobs that usually send you to another program are already inside: batch rename, find duplicates, compare and synchronize folders, checksums, PDF tools, converters, archives (ZIP, 7z, RAR, tar) and audio tags.
 
@@ -69,7 +69,7 @@ n</details>
 
 | | |
 |---|---|
-| <kbd>⚡ Instant</kbd> | 10,000 files drawn in 1–2 ms. Nothing waits for the disk or the network. |
+| <kbd>⚡ Instant</kbd> | 10,000 files drawn in 1–2 ms. Folders load in the background, so the window never waits for the disk. |
 | <kbd>👁 SwiftView</kbd> | Press Space to preview almost anything: Office, PDF, pictures, audio, video, books. |
 | <kbd>⌨ Command palette</kbd> | Every command one keystroke away. Every shortcut can be changed. |
 | <kbd>🛡 Safe copy engine</kbd> | Files are never left half-written, even after a crash. Optional verify. |

@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="res/banner.png" alt="Vizor, the file manager Windows was missing: its window with the command palette open">
+  <img src="res/banner.png" alt="Vixor, the file manager Windows was missing: its window with the command palette open">
 </p>
 
-# Vizor
+# Vixor
 
-**A fast, native file manager for Windows with a built-in preview, command palette and everyday tools.** It is a single `.exe` written in C (Win32 + Direct2D/DirectWrite + WIC), with no account and no telemetry. Vizor only goes online when you ask it to: identifying a song or finding its cover (the audio tag tools) sends the sound's fingerprint or a search to AcoustID, MusicBrainz and the Cover Art Archive, and, only if you say yes, once a week it checks GitHub for a newer version. Nothing else leaves your computer. Folders of 10,000 files are drawn in 1–2 ms, and reading a folder never freezes the window.
+**A fast, native file manager for Windows with a built-in preview, command palette and everyday tools.** It is a single `.exe` written in C (Win32 + Direct2D/DirectWrite + WIC), with no account and no telemetry. Vixor only goes online when you ask it to: identifying a song or finding its cover (the audio tag tools) sends the sound's fingerprint or a search to AcoustID, MusicBrainz and the Cover Art Archive, and, only if you say yes, once a week it checks GitHub for a newer version. Nothing else leaves your computer. Folders of 10,000 files are drawn in 1–2 ms, and reading a folder never freezes the window.
 
 Press **Space** to preview almost anything (Office, PDF, pictures, audio, video, books), work with up to four panels that each have their own tabs, and reach every command from the **command palette** (Ctrl+Shift+P). Copies are never left half-written, even after a crash. The everyday jobs that usually send you to another program are already inside: batch rename, find duplicates, compare and synchronize folders, checksums, PDF tools, converters, archives (ZIP, 7z, RAR, tar) and audio tags.
 
-**Built on the best ideas that already exist.** Vizor borrows what each kind of tool does well: the dual panels and keyboard speed of the classic file managers, the Columns view and the quick preview of the macOS Finder, the instant search of the best desktop search tools, and the command palette of modern code editors. It brings them together in one program that feels native on Windows.
+**Built on the best ideas that already exist.** Vixor borrows what each kind of tool does well: the dual panels and keyboard speed of the classic file managers, the Columns view and the quick preview of the macOS Finder, the instant search of the best desktop search tools, and the command palette of modern code editors. It brings them together in one program that feels native on Windows.
 
 **Who is it for?** Anyone who finds Explorer slow or too limited, who handles many files every day (photos, documents, music, backups) and wants to do it without reaching for the mouse or a dozen small utilities.
 
@@ -16,21 +16,21 @@ Press **Space** to preview almost anything (Office, PDF, pictures, audio, video,
 
 **Status:** beta, ready to use.
 
-**Requirements:** Windows 10 or 11, 64-bit. A processor with 2 or more cores and 4 GB of RAM are enough to use it; 4 cores and 8 GB or more are recommended. Vizor uses several threads to keep the window responsive while it reads folders, sizes, thumbnails and previews, so a very old single-core processor will feel slow. Using it on an SSD is highly recommended.
+**Requirements:** Windows 10 or 11, 64-bit. A processor with 2 or more cores and 4 GB of RAM are enough to use it; 4 cores and 8 GB or more are recommended. Vixor uses several threads to keep the window responsive while it reads folders, sizes, thumbnails and previews, so a very old single-core processor will feel slow. Using it on an SSD is highly recommended.
 
-## The story behind Vizor
+## The story behind Vixor
 
 Like many Windows Explorer users, I always wished for a better response, more built-in utilities and many more ways to make it my own. Several tools already improve on Explorer, but none of them had all the features I wanted in a file manager.
 
 I had this idea for years: one file manager that already does what I kept installing separate tools for. Renaming in batches, finding duplicates, converting files, compressing, previewing, comparing folders. At some point I counted eight or ten different programs on my computer just to look after my files, and having to find, download and update each one was tedious. I never had the skills to build the tool I imagined. With AI, I finally could.
 
-Vizor has taken more than 200 hours. It is 100% vibe coded, but every architecture and design decision was mine, and I reviewed every detail myself, one by one.
+Vixor has taken more than 200 hours. It is 100% vibe coded, but every architecture and design decision was mine, and I reviewed every detail myself, one by one.
 
 I also wanted it to be trustworthy, because a file manager must never lose your files. That is why testing was as much a part of the work as writing the code; you can read how below.
 
-Vizor was also born in a difficult time for my wife and me, and working on it gave me something good to put my energy into. On August 10, the earthquake in Cali left us without our apartment, and that is why I wanted to finish it and share it sooner rather than later.
+Vixor was also born in a difficult time for my wife and me, and working on it gave me something good to put my energy into. On August 10, the earthquake in Cali left us without our apartment, and that is why I wanted to finish it and share it sooner rather than later.
 
-Vizor is free, with no ads, no account and no locked features, and it will stay that way. If it turns out to be useful to you and you would like to help us start over, you will find me on [Ko-fi](https://ko-fi.com/edukode). It is never expected: using Vizor and telling me what to improve is already a great way to help.
+Vixor is free, with no ads, no account and no locked features, and it will stay that way. If it turns out to be useful to you and you would like to help us start over, you will find me on [Ko-fi](https://ko-fi.com/edukode). It is never expected: using Vixor and telling me what to improve is already a great way to help.
 
 <details>
 <summary><b>How it was tested</b></summary>
@@ -44,7 +44,7 @@ Vizor is free, with no ads, no account and no locked features, and it will stay 
 - More than ten audit rounds of the whole program (errors, data safety, untrusted files, threads, logic, performance). Every finding was rated by severity and written down with how it was checked, and nothing was called fixed until it had been run.
 - Every change tried by hand in the real app before it was committed.
 
-n</details>
+</details>
 
 ## Features
 
@@ -70,7 +70,7 @@ n</details>
 | | |
 |---|---|
 | <kbd>⚡ Instant</kbd> | 10,000 files drawn in 1–2 ms. Folders load in the background, so the window never waits for the disk. |
-| <kbd>👁 SwiftView</kbd> | Press Space to preview almost anything: Office, PDF, pictures, audio, video, books. |
+| <kbd>👁 Quick View</kbd> | Press Space to preview almost anything: Office, PDF, pictures, audio, video, books. |
 | <kbd>⌨ Command palette</kbd> | Every command one keystroke away. Every shortcut can be changed. |
 | <kbd>🛡 Safe copy engine</kbd> | Files are never left half-written, even after a crash. Optional verify. |
 | <kbd>🪟 Panel layouts</kbd> | Up to four panels in 11 arrangements, each with its own tabs. |
@@ -165,60 +165,60 @@ n</details>
 | <kbd>Settings</kbd> | Over 160 options, all searchable. |
 | <kbd>Profiles</kbd> | Save, load and share your whole setup. |
 | <kbd>Keyboard first</kbd> | Vim keys, type to filter, every command with a key. |
-| <kbd>Explorer menu</kbd> | "Open in Vizor" in the File Explorer menu (optional). |
+| <kbd>Explorer menu</kbd> | "Open in Vixor" in the File Explorer menu (optional). |
 
 </details>
 
 ## Download and install
 
-Vizor is distributed with an installer, on the [Releases](https://github.com/edukode-lab/Vizor/releases) page of this repository.
+Vixor is distributed with an installer, on the [Releases](https://github.com/edukode-lab/Vixor/releases) page of this repository.
 
 **Check your download.** Every release lists the **SHA-256** of its installer. After downloading, compare it with the one on the Releases page. In PowerShell:
 
 ```powershell
-Get-FileHash .\Vizor-Setup.exe -Algorithm SHA256
+Get-FileHash .\Vixor-Setup.exe -Algorithm SHA256
 ```
 
 If the two values are not identical, do not run the file. Delete it and download it again from this page.
 
 > [!WARNING]
-> **Download Vizor only from this repository or from well-known, trusted sites.** Unofficial copies, mirrors and files shared by strangers can hide malware. If you are not sure where a file came from, do not run it.
+> **Download Vixor only from this repository or from well-known, trusted sites.** Unofficial copies, mirrors and files shared by strangers can hide malware. If you are not sure where a file came from, do not run it.
 
 > [!NOTE]
-> **Windows SmartScreen may warn you the first time.** You may see "Windows protected your PC" when you run the installer. This happens because Vizor is a new program from an independent developer and is not yet signed with a code-signing certificate, not because anything was found in it. If you downloaded it from this page, choose **More info** and then **Run anyway**.
+> **Windows SmartScreen may warn you the first time.** You may see "Windows protected your PC" when you run the installer. This happens because Vixor is a new program from an independent developer and is not yet signed with a code-signing certificate, not because anything was found in it. If you downloaded it from this page, choose **More info** and then **Run anyway**.
 
-**Vizor is a beta (version 0.9.0). Use it at your own risk.** It has been tested carefully, but it copies, moves, renames, deletes and can even format files and drives, so expect rough edges, review each operation before you confirm it, and keep a backup of anything that matters. Vizor is provided "as is", without warranty, as the [license](LICENSE.md) explains. If you find a problem, please [open an issue](https://github.com/edukode-lab/Vizor/issues).
+**Vixor is a beta (version 0.9.0). Use it at your own risk.** It has been tested carefully, but it copies, moves, renames, deletes and can even format files and drives, so expect rough edges, review each operation before you confirm it, and keep a backup of anything that matters. Vixor is provided "as is", without warranty, as the [license](LICENSE.md) explains. If you find a problem, please [open an issue](https://github.com/edukode-lab/Vixor/issues).
 
 ## Technical details
 
-- **Requirements:** Windows 10 or 11, 64-bit. A processor with 2 or more cores and 4 GB of RAM are enough to use it; 4 cores and 8 GB or more are recommended. Vizor uses several threads to keep the window responsive while it reads folders, sizes, thumbnails and previews, so a very old single-core processor will feel slow. Using it on an SSD is recommended. HTML previews use the Microsoft Edge WebView2 Runtime, which comes with Windows 11 and with an up-to-date Windows 10; without it, an HTML file is shown as code.
+- **Requirements:** Windows 10 or 11, 64-bit. A processor with 2 or more cores and 4 GB of RAM are enough to use it; 4 cores and 8 GB or more are recommended. Vixor uses several threads to keep the window responsive while it reads folders, sizes, thumbnails and previews, so a very old single-core processor will feel slow. Using it on an SSD is recommended. HTML previews use the Microsoft Edge WebView2 Runtime, which comes with Windows 11 and with an up-to-date Windows 10; without it, an HTML file is shown as code.
 - **A native Windows program,** written in C with Win32, Direct2D, DirectWrite and WIC. It has no framework to install and needs no Visual C++ redistributable.
 - **PDF pages and searching inside PDFs** use PDFium (the PDF engine of Chrome), shipped beside the program as `pdfium.dll`.
 - **Fast by design:** a folder of 10,000 files is drawn in 1–2 ms, and reading a folder never freezes the window. Folder sizes are calculated in the background, and paths up to 32,767 characters work everywhere.
 - **Safe copy:** files are never left half-written, even after a crash, and temporary files are cleaned up at the next start.
 - **Archives:** reads ZIP, 7z, RAR and tar (gzip, xz, bzip2, zstd). Makes ZIP and 7z (with AES-256 passwords) and tar. RAR can only be read.
 - **Audio:** reads WAV, FLAC, MP3 and Ogg Vorbis with its own decoders when Windows cannot open them.
-- **Where it keeps things:** settings, tags, the session and the undo journals are in `%APPDATA%\Vizor`. The optional "Open in Vizor" entry in the File Explorer menu needs administrator rights once, and can be turned off from the same place.
+- **Where it keeps things:** settings, tags, the session and the undo journals are in `%APPDATA%\Vixor`. The optional "Open in Vixor" entry in the File Explorer menu needs administrator rights once, and can be turned off from the same place.
 - **Built with:** libarchive, zlib, xz, zstd, bzip2, UnRAR (read only), PDFium, WebView2, Chromaprint, dr_libs, stb_vorbis and the Inter, Geist, Atkinson Hyperlegible and JetBrains Mono fonts. Thanks to all their authors.
 
 ### Copy speed
 
-Measured with Vizor's own benchmark: the same folder copied inside the same SSD, with every copy checked against its source afterwards. "Windows" is the system's own copy function, the one File Explorer uses.
+Measured with Vixor's own benchmark: the same folder copied inside the same SSD, with every copy checked against its source afterwards. "Windows" is the system's own copy function, the one File Explorer uses.
 
 | Copying 20,000 small files (633 MiB) | Time | Speed |
 |---|---|---|
 | Windows | 40–45 s | 14 MiB/s |
-| Vizor | about 14 s | 43.5 MiB/s |
+| Vixor | about 14 s | 43.5 MiB/s |
 
-That is about three times faster. The time counts until the last file is written to the disk. With a few big files Vizor is 15–18 % faster than Windows, and on a hard disk, copying 10,000 small files is about twice as fast. The results depend on your disk, your antivirus and the files; these were measured in my laptop.
+That is about three times faster. The time counts until the last file is written to the disk. With a few big files Vixor is 15–18 % faster than Windows, and on a hard disk, copying 10,000 small files is about twice as fast. The results depend on your disk, your antivirus and the files; these were measured in my laptop.
 
 ### Privacy
 
-Vizor does not collect or send any data about you. It has no telemetry and no accounts, and everything works offline.
+Vixor does not collect or send any data about you. It has no telemetry and no accounts, and everything works offline.
 
 It uses the internet in only three cases, all of them started or accepted by you:
 
-- **Check for updates:** the first time, Vizor asks whether it may look once a week for a newer version. If you accept (or press **Check for updates** in About), it asks GitHub for the list of published versions and tells you if there is a newer one. It sends nothing about you or your files, and it never downloads or installs anything by itself.
+- **Check for updates:** the first time, Vixor asks whether it may look once a week for a newer version. If you accept (or press **Check for updates** in About), it asks GitHub for the list of published versions and tells you if there is a newer one. It sends nothing about you or your files, and it never downloads or installs anything by itself.
 - **Find cover online** sends the artist and album (or the song title) to MusicBrainz and the Cover Art Archive, and downloads the cover you choose.
 - **Identify** sends an audio fingerprint, never the file, to AcoustID to recognize the song.
 
@@ -226,7 +226,7 @@ Each of the two audio functions asks for your agreement the first time.
 
 ## What's coming next
 
-Vizor keeps growing. These are the next things on my list:
+Vixor keeps growing. These are the next things on my list:
 
 - **A customizable context menu:** choose and arrange what appears when you right-click.
 - **Smart folders:** folders that fill themselves from a search.
@@ -236,15 +236,15 @@ Vizor keeps growing. These are the next things on my list:
 - **Network folders**
 - **And more.**
 
-Have an idea? [Open an issue](https://github.com/edukode-lab/Vizor/issues) and tell me.
+Have an idea? [Open an issue](https://github.com/edukode-lab/Vixor/issues) and tell me.
 
 ## License
 
-Vizor is free for personal, educational and non-profit use. Commercial use needs a commercial license.
+Vixor is free for personal, educational and non-profit use. Commercial use needs a commercial license.
 Read the full terms in [LICENSE.md](LICENSE.md) (English) or [LICENCIA.md](LICENCIA.md) (Spanish; it prevails if they differ).
 
 ## Support
 
-If you like Vizor and want to support its development, you can buy me a coffee.
+If you like Vixor and want to support its development, you can buy me a coffee.
 
 <a href="https://ko-fi.com/edukode"><img src="res/support-kofi.svg" alt="Buy me a coffee on Ko-fi" width="220"></a>

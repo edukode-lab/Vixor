@@ -20,8 +20,8 @@
 <rect x="448.0" y="100" width="384.0" height="184" rx="18" fill="url(#card)" stroke="#1f2b4f" stroke-width="1.2"/>
 <rect x="472.0" y="124" width="60" height="60" rx="16" fill="#16213f" stroke="#2b3a66"/>
 <g transform="translate(481.0,133) scale(1.5)" fill="none" stroke="#4fd2e6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></g>
-<rect x="548.0" y="135" width="126" height="38" rx="19" fill="#16213f" stroke="#2b3a66"/>
-<text x="565.0" y="160.5" font-size="18" font-weight="700" fill="#e9fbff">SwiftView</text>
+<rect x="548.0" y="135" width="134" height="38" rx="19" fill="#16213f" stroke="#2b3a66"/>
+<text x="565.0" y="160.5" font-size="18" font-weight="700" fill="#e9fbff">Quick View</text>
 <text x="472.0" y="220" font-size="20" fill="#b4c2e0">Press Space to preview Office, PDF,</text>
 <text x="472.0" y="248" font-size="20" fill="#b4c2e0">pictures, audio, video and books.</text>
 <rect x="856.0" y="100" width="384.0" height="184" rx="18" fill="url(#card)" stroke="#1f2b4f" stroke-width="1.2"/>

@@ -1,4 +1,4 @@
-# Vizor License
+# Vixor License
 
 **Free license for non-commercial use**
 Version 1.2 — November 2026
@@ -8,7 +8,7 @@ Versión en español: [LICENCIA.md](LICENCIA.md). In case of differences, the Sp
 
 ## 1. Scope
 
-This license governs the use of Vizor, a file manager for Windows ("the Software"), including its executable program, updates, documentation and graphics. The Software is provided free of charge for non-commercial use, on the terms below. Being free does not make it public domain, and the User does not acquire ownership of the Software.
+This license governs the use of Vixor, a file manager for Windows ("the Software"), including its executable program, updates, documentation and graphics. The Software is provided free of charge for non-commercial use, on the terms below. Being free does not make it public domain, and the User does not acquire ownership of the Software.
 
 ## 2. Definitions
 
@@ -16,7 +16,7 @@ This license governs the use of Vizor, a file manager for Windows ("the Software
 - **User:** the individual or organization that downloads, installs or uses the Software.
 - **Personal use:** use by an individual on their own behalf and for their own purposes, outside any professional, commercial or employment activity.
 - **Commercial use:** any use by a company, business, self-employed professional or public administration, or by an employee or contractor in the course of their work, whether or not there is a direct charge and whatever computer it runs on.
-- **Official channels:** the page https://github.com/edukode-lab/Vizor and any others the Owner lists there.
+- **Official channels:** the page https://github.com/edukode-lab/Vixor and any others the Owner lists there.
 
 ## 3. Permitted free use
 
@@ -42,7 +42,7 @@ Unless the Owner authorizes it in writing, and without prejudice to clause 7, th
 2. Modify, translate, decompile, disassemble or reverse engineer the Software, or create derivative works, except to the extent applicable law allows it notwithstanding this license.
 3. Distribute modified versions, or bundle the Software in packages or installers of other products.
 4. Remove, alter or hide notices of authorship, ownership or license.
-5. Use the name or logo of Vizor to present a product, site or service as official when it is not.
+5. Use the name or logo of Vixor to present a product, site or service as official when it is not.
 
 ## 6. Redistribution
 
@@ -60,7 +60,7 @@ The Owner may accept voluntary donations for the development of the Software. Th
 
 The Software does not collect or send personal data or usage information. Its settings are stored only on the User's computer.
 
-The Software connects to the internet only when the User expressly asks for it or has agreed to it: the "Find cover online" function (Find online…) of Edit audio tags sends to MusicBrainz (musicbrainz.org) the artist and the song title or album the User types, and downloads the pictures from the Cover Art Archive (coverartarchive.org). In addition, the "Identify" function (Identify…) of Edit audio tags listens on the computer to the start of each chosen file and sends to AcoustID (acoustid.org) its audio fingerprint, a few KB that stand for how it sounds and not the audio, together with its length; the names of the files and their tags are not sent. The check for a newer version works like this: the first time it starts, the Software asks the User whether it may look once a week for a newer version. If the User agrees (this can be changed at any time in the settings), or presses "Check for updates" in the About box or runs the command of that name, the Software requests from GitHub (api.github.com) the list of published versions of Vizor and compares the newest with the installed one. That request carries only what any internet request carries, namely the User's network address and the name and version of the program; nothing about the User, their computer or their files is sent. If there is a newer version, the Software says so and offers to open its download page; it never downloads or installs anything by itself. Nothing else is sent. These are third-party services governed by their own terms; the pictures belong to their owners. If a future version connects to the internet for anything else, it will say so in this clause and in the program itself.
+The Software connects to the internet only when the User expressly asks for it or has agreed to it: the "Find cover online" function (Find online…) of Edit audio tags sends to MusicBrainz (musicbrainz.org) the artist and the song title or album the User types, and downloads the pictures from the Cover Art Archive (coverartarchive.org). In addition, the "Identify" function (Identify…) of Edit audio tags listens on the computer to the start of each chosen file and sends to AcoustID (acoustid.org) its audio fingerprint, a few KB that stand for how it sounds and not the audio, together with its length; the names of the files and their tags are not sent. The check for a newer version works like this: the first time it starts, the Software asks the User whether it may look once a week for a newer version. If the User agrees (this can be changed at any time in the settings), or presses "Check for updates" in the About box or runs the command of that name, the Software requests from GitHub (api.github.com) the list of published versions of Vixor and compares the newest with the installed one. That request carries only what any internet request carries, namely the User's network address and the name and version of the program; nothing about the User, their computer or their files is sent. If there is a newer version, the Software says so and offers to open its download page; it never downloads or installs anything by itself. Nothing else is sent. These are third-party services governed by their own terms; the pictures belong to their owners. If a future version connects to the internet for anything else, it will say so in this clause and in the program itself.
 
 The "Find cover online" and "Identify" functions may be used only in personal use, in study or teaching, and in non-profit organizations of up to 10 employees or contractors (clause 3, items 1 to 3), because the services they rely on are free only for non-commercial use. They are not included in commercial use, neither during the evaluation nor with a commercial license, nor in non-profit organizations of more than 10 employees or contractors; in those cases the User must not use them. The check for a newer version is not affected: it is available in every kind of use. The rest of the Software is unchanged.
 

@@ -28,9 +28,7 @@ Vixor has taken more than 200 hours. It is 100% vibe coded, but every architectu
 
 I also wanted it to be trustworthy, because a file manager must never lose your files. That is why testing was as much a part of the work as writing the code; you can read how below.
 
-Vixor was also born in a difficult time for my wife and me, and working on it gave me something good to put my energy into. On August 10, the earthquake in Cali left us without our apartment, and that is why I wanted to finish it and share it sooner rather than later.
-
-Vixor is free, with no ads, no account and no locked features, and it will stay that way. If it turns out to be useful to you and you would like to help us start over, you will find me on [Ko-fi](https://ko-fi.com/edukode). It is never expected: using Vixor and telling me what to improve is already a great way to help.
+Vixor is free, with no ads, no account and no locked features, and it will stay that way. If it turns out to be useful to you and you would like to support this project, you will find me on [Ko-fi](https://ko-fi.com/edukode). It is never expected: using Vixor and telling me what to improve is already a great way to help.
 
 <details>
 <summary><b>How it was tested</b></summary>
